@@ -2,37 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-div{
+  margin: 0 auto;
+  background-color: rgb(215, 216, 216);
+  width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  padding-left: 20px;
+  font-size: 36px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p{
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+button{
+  height: 60px;
+  width: 350px;
+  margin: 10px;
+}
+.answer{
+  padding-left: 40px;
+  font-size: 30px;
+}
+
+.progress{
+  width: 100%;
+  margin: 0;
+  height: 30px;
+  border-radius: 0px;
+}
+
+.Container{
+  margin-bottom: 5rem;
+}
+
+button:hover{
+  background-color: black;
   color: white;
+  transition: 0.8s;
 }
 
-.App-link {
-  color: #61dafb;
+.progress::-webkit-progress-bar{
+  background-color: rgb(201, 201, 201);
+}
+.progress::-webkit-progress-value{
+  background-color: gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.final-div{
+  width: 70%;
+  height: 250px;
+}
+
+.lower-progress{
+  width: 70%;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
+  height: 30px;
+  border-radius: 0px;
+}
+
+.lower-progress::-webkit-progress-bar{
+  background-color: rgb(201, 201, 201);
+}
+.lower-progress::-webkit-progress-value{
+  background-color: black;
+}
+
+.score{
+  font-size: 20px;
+  margin-left: 7rem;
+}
+
+.max{
+  float: right;
+  margin-right: 15rem;
+}
+
+.ques{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main-ques{
+  font-size: 28px;
+}
+
+.result-container{
+  margin: 0 auto;
+  width: 40%;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.result{
+  font-size: 32px;
+  border-radius: 10px;
+}
+
+.question{
+  font-size: 38px;
 }
